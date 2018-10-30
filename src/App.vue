@@ -16,7 +16,6 @@ import ContactView from './views/ContactView'
 export default {
   name: 'app',
   components: {
-    Parallax,
     HomeView,
     DescriptionView,
     ServiceView,
