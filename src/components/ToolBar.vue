@@ -33,6 +33,7 @@ export default {
             display: flex;
             & > a {
                 margin: 0 2.5vw;
+                cursor: pointer;
             }
             
         }

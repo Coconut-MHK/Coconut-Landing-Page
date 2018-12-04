@@ -14,8 +14,8 @@
         <div class="collaboration-container">
             <h1>In Collaboration With</h1>
             <div class="collaboration-image-container">
-                <img src="../assets/logoKAIST.svg" alt="KAIST">
-                <img src="../assets/logoMHK.svg" alt="MHK">
+                <img src="../assets/logo-KAIST.png" alt="KAIST">
+                <img src="../assets/logo-MHK.png" alt="MHK">
             </div>
         </div>
     </div>
@@ -59,7 +59,7 @@ export default {
             align-items: center;
             margin-top: 2vh;
             & > img {
-                width: 20vmin;
+                width: 12.5vmin;
             }
             img + img {
                 margin-left: 2vw;

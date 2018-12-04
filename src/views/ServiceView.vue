@@ -2,7 +2,7 @@
     <div class="service-container" id="Service">
         <div class="service-container-peerSupport">
             <div class="image-container">
-                <img src="../assets/service-image.svg" alt="logo">
+                <img src="../assets/service-image.png" alt="logo">
             </div>
             <div class="service-description-container" :class="$mq">
                 <h1>Peer Support System</h1>
@@ -34,14 +34,13 @@
 </template>
 
 <script>
-import hospitalImage from "../assets/hospital-image.svg";
-import communityImage from "../assets/community-image.svg";
+import hospitalImage from "../assets/hospital-image.png";
+import communityImage from "../assets/community-image.png";
 
 export default {
     props: ['appURLs'],
     data() {
         return {
-            playStoreURL: "https://www.google.com",
             otherInformation: {
                 hospital: {
                     name: 'hospital',

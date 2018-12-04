@@ -30,8 +30,8 @@ export default {
     data() {
         return {
             tabs: ['Home','Service','Contact'],
-            descriptions: ['서로 마음의 병을', '공유하고 치유해주는', '복합 서비스'],
-            subDescriptions: ['코코넛으로 서로의 경험을 나누고', '서로의 마음을 돌봐주세요']
+            descriptions: ['서로 마음의 병을', '공유하고 치유해주는', '복합 서비스'],
+            subDescriptions: ['코코넛으로 서로의 경험을 나누고', '서로의 마음을 공유해주세요']
         }
     }
 
@@ -52,7 +52,7 @@ export default {
             flex: 1;
             flex-direction: column;
             justify-content: center;
-            margin: 0 2.5vw 0 5vw;
+            margin: 0 5vw 0 5vw;
             color: white;
             text-align: left;
             h1 {
